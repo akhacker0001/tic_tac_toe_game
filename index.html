@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- select player section -->
+    <section>
+        <div class="choose_player">
+ 
+            <div class="player_heading">
+                <h1>tic tac toe</h1>
+            </div>
+            <div class="heading">
+                select which you want to be?
+            </div>
+            <div class="players">
+                <button id="playerX" >Player (X)</button>
+                <button  id="playerO" >Player (O)</button>
+            </div>
+        </div>
+    </section>
+    <!-- end select player section -->
+
+    <!-- game play section -->
+    <section>
+        <div class="game_play_section">
+            <div class="player_names">
+                
+                    <h2 class="XplayerOnline" >Player (X)</h2>
+                    <h2  class="YplayerOnline">Player (O)</h2>
+                
+                <span class="slider"></span>
+            </div>
+
+            <div class="game_play_boxes">
+                <div class="row row1">
+                    <span class="boxes box1"></span>
+                    <span class="boxes box2"></span>
+                    <span class="boxes box3"></span>
+
+                </div>
+                <div class="row row2">
+                    <span class="boxes box4"></span>
+                    <span class="boxes box5"></span>
+                    <span class="boxes box6"></span>
+
+                </div>
+                <div class="row row3">
+                    <span class="boxes box7"></span>
+                    <span class="boxes box8"></span>
+                    <span class="boxes box9"></span>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- game play section end -->
+
+
+
+    <!-- game result section -->
+    <div class="myResults">
+        <div class="result_container">
+            <div class="result_anoucment">
+                <h1 id="showPlayerResult" >player  <span id="won"></span> won the game</h1>
+            </div>
+            <div class="replay_match_again">
+                <button id="reply_button">Replay</button>
+            </div>
+    
+        </div>
+    </div>
+   
+    <!-- result section end -->
+
+    
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
